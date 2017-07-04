@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "image augmentation processing"
 date:   2017-07-04 22:59:13 +0000
 categories: 
 ---
