@@ -11,4 +11,5 @@ mainly research field：computer vision based on deep learning && reinforcement 
 open source developer
 
 Java > Python > Scala = C++
+
 Intern: Xiaomi MIUI
