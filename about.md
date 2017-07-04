@@ -4,5 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
+I'm a postgraduate at NPU
+mainly research field：computer vision based on deep learning && reinforcement learning lelated to robotics
+open source developer
+Java > Python > Scala = C++
+Intern: Xiaomi MIUI
