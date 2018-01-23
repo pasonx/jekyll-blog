@@ -30,7 +30,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 disqus: 
-  shortname: "pasons-blog"
+  shortname: pasons-blog
 defaults:
   -
     scope:
