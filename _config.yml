@@ -31,10 +31,3 @@ exclude:
   - Gemfile.lock
 disqus: 
   shortname: pasons-blog
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: true
