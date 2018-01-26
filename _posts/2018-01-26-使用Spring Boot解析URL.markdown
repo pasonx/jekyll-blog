@@ -1,13 +1,6 @@
 ---
-published: false
+published: true
 ---
----
-layout: post
-title:  "image augmentation processing"
-date:   2018-01-26 17:02:13 +0000
-categories: 
----
-
 本文介绍Spring Boot中注解对URL的解析方法
 
 ## @RequestMapping
