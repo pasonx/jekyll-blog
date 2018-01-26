@@ -6,7 +6,8 @@ published: true
 ## @RequestMapping
 此注解用于将URL某一模式或路径映射到具体的处理方法上面
 {% highlight java %}
-	 @RequestMapping(path={"/","/index"})
+
+    @RequestMapping(path={"/","/index"})
     @ResponseBody
     public String index() {
         return "Hello,Spring Boot!";
