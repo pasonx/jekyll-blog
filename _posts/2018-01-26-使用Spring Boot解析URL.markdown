@@ -11,5 +11,4 @@ published: true
     public String index() {
         return "Hello,Spring Boot!";
     }
-{% endhightlight %}
-
+{% endhighlight %}
