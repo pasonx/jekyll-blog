@@ -5,10 +5,11 @@ published: true
 
 ## @RequestMapping
 此注解用于将URL某一模式或路径映射到具体的处理方法上面
-```
-    @RequestMapping(path={"/","/index"})
+{% highlight java %}
+	 @RequestMapping(path={"/","/index"})
     @ResponseBody
     public String index() {
-        return "Hello,Tensorflow";
+        return "Hello,Spring Boot!";
     }
-```
+{% endhightlight %}
+
