@@ -3,7 +3,7 @@ published: true
 ---
 本文介绍Spring Boot中注解对URL的解析方法
 
-## @RequestMapping
+### @RequestMapping
    此注解用于将URL某一模式或路径映射到具体的处理方法上面
 {% highlight java %}
 
@@ -17,7 +17,7 @@ published: true
     
 {% endhighlight %}
 
-## 处理URL中的参数
+### 处理URL中的参数
    在URL中，我们要先取得URL中每一个/item/的内容，可以现在RequestMapping里面写成/profile/{groupId}/{userId}的形式，花括号里我们先定义一个占位符变量
    在之后的处理函数的参数中使用@PathVariable注解便可以将每一个/item/取出来
    
