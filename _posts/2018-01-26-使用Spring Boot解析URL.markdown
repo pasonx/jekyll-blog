@@ -28,12 +28,12 @@ published: true
     @ResponseBody
     public String profile(@PathVariable("groupId")String groupId,
                    @PathVariable("userId")int userId,
-                   @RequestParam(value = "type", defaultValue = "1") int type,
+                   @RequestParam(value = "type", defaultValue = "1") String type,
                    @RequestParam(value = "key", required = false) String key) {
 
-        return String.format("Gourp id is %s, User id is %d, type is %d, key is %s", groupId, userId, type, key);
+        return String.format("Gourp id is %s, User id is %d, type is %s, key is %s", groupId, userId, type, key);
     }
     
 {% endhighlight %}
 
-   在@RequestParam注解中，若required为false，那么在URL传输中可以忽略key的值; 若required不设置默认为true，那么必须给key赋值; 若设置了defaultValue的值，那么同样可以不给defaultValue的值，参数的值会为默认值
+   在@RequestParam注解中，若required为false，那么在URL传输中可以忽略key的值; 若required不设置默认为true，那么必须给key赋值; 若设置了defaultValue的值，那么同样可以不给defaultValue的值，参数的值会为默认值; 同时，当RequestParam中的值为int时，若required设置为false时仍然会报错，因为忽略时的值为null，无法将null转化为int类型。
