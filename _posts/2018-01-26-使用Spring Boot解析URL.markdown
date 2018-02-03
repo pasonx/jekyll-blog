@@ -35,3 +35,5 @@ published: true
     }
     
 {% endhighlight %}
+
+   在@RequestParam注解中，若required为false，那么在URL传输中可以忽略key的值; 若required不设置默认为true，那么必须给key赋值; 若设置了defaultValue的值，那么同样可以不给defaultValue的值，参数的值会为默认值
