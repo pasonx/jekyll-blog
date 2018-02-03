@@ -18,8 +18,7 @@ published: true
 {% endhighlight %}
 
 ## 处理URL中的参数
-   在URL中，我们要先取得URL中每一个/item/的内容，可以现在RequestMapping里面写成
-   /profile/{groupId}/{userId}的形式，花括号里我们先定义一个占位符变量
+   在URL中，我们要先取得URL中每一个/item/的内容，可以现在RequestMapping里面写成/profile/{groupId}/{userId}的形式，花括号里我们先定义一个占位符变量
    在之后的处理函数的参数中使用@PathVariable注解便可以将每一个/item/取出来
    
    另外，在URL后面仍然有许多重要的参数传递，往往以{% highlight java %}?type=xxx&key=xxx{% endhighlight %}这样的形式出现，同理我们使用@RequestParam来处理
@@ -32,7 +31,7 @@ published: true
                    @RequestParam(value = "type", defaultValue = "1") int type,
                    @RequestParam(value = "key", required = false) String key) {
 
-        return String.format("Gourp id is %s, user id is %d, type is %d, key is %s", groupId, userId, type, key);
+        return String.format("Gourp id is %s, User id is %d, type is %d, key is %s", groupId, userId, type, key);
     }
     
 {% endhighlight %}
