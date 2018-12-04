@@ -26,8 +26,16 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jemoji
 exclude:
   - Gemfile
   - Gemfile.lock
 disqus: 
   shortname: pasons-blog
+defaults:
+-
+  scope:
+    path: ""
+    type: "posts"
+  values:
+    comments: true
