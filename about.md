@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
 I'm a postgraduate at NPU
